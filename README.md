@@ -1,53 +1,234 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+# Online Banking Management System
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+## Overview
 
-## Command Used
-<p>composer install</p><br>
-<p>cp .env.example .env</p><br>
-<p>php artisan key:generate</p><br>
-<p>php artisan serve</p><br>
-<p>php artisan make:model AddStaffForm -mc</p><br>
-<p>php artisan make:controller AddStaffForm -r</p><br>
-<p>php artisan make:model AddManagerForm -mc</p><br>
-<p>php artisan make:controller AddManagerForm -r</p><br>
-<p>php artisan make:migrate create_tablename_table (You may use the make:migration Artisan command to generate a database migration)</p><br>
-<p>php artisan migrate  (To run all of your outstanding migrations, execute the migrate Artisan command:)</p><br>
-<p>php artisan migrate:status  (If you would like to see which migrations have run thus far, you may use the migrate:status Artisan command)</p><br>
-<p>php artisan migrate:rollback  (To roll back the latest migration operation, you may use the rollback Artisan command.)</p><br>
-<p>php artisan make:migration --reset (The migrate:reset command will roll back all of your application's migrations:)</p><br>
-<p>php artisan storage:link (To create the symbolic link, you may use the storage:link Artisan command)</p><br>
-<p>php artisan db:seed --class=CustomerDataSeeder (To create fake data for customer-data table)</p><br>
+Suraksha Bank is a web-based Online Banking Management System developed to provide customers with secure and convenient access to banking services from anywhere. The platform eliminates the need for customers to visit physical bank branches for routine banking activities and enables digital management of accounts, transactions, and customer records.
 
+The project was developed as a major academic project with the objective of simplifying banking operations, improving accessibility, and reducing manual workload through automation.
 
-## Controller Details
+---
 
-<strong>AdminController</strong> : It is used to call the methods which return the view of admin panel
-<br>
-<strong>AddStaffFormController</strong> : It is used to access Add Staff Form in admin panel
-<br>
-<strong>AddManagerFormController</strong> : It is used to access Add Manager Form in admin panel
+## Problem Statement
 
-## Migration Details
+Traditional banking systems often require customers to visit branches for services such as account management, fund transfers, and document verification. This process can be time-consuming and inefficient, particularly during situations where physical access is limited.
 
-<strong>add_staff_forms</strong> : Schema defined for storing staff details
-<br>
-<strong>add_manager_forms</strong> : Schema defined for storing manager details
-<br>
+The objective of this project is to provide a centralized online banking platform where customers can perform essential banking operations securely through a web interface.
 
-## Document Details
+---
 
-<strong>public/images/staff/aadharcard</strong> : For storing Aadhar Card of Staff
-<br>
-<strong>public/images/staff/pancard</strong> : For storing Pan Card of Staff
-<br>
-<strong>public/images/staff/photo</strong> : For storing Photo of Staff
-<br>
-<strong>public/images/staff/signature</strong> : For storing Signature of Staff
-<br>
+## Key Features
 
+### Customer Features
+
+* User Registration and Login
+* Bank Account Management
+* Account Balance Inquiry
+* Transaction History
+* Beneficiary Management
+* Fund Transfer
+* KYC Verification
+* Fixed Deposit Management
+* E-Passbook Access
+* Customer Profile Management
+
+### Administrative Features
+
+* Customer Record Management
+* Account Verification
+* User Monitoring
+* Banking Data Management
+* Staff Management
+* Report Generation
+
+### Security Features
+
+* Authentication and Authorization
+* Protected User Sessions
+* Database-Driven Validation
+* Secure Account Access
+
+---
+
+## Technology Stack
+
+### Frontend
+
+* HTML5
+* CSS3
+* Bootstrap
+* JavaScript
+* jQuery
+
+### Backend
+
+* PHP
+* Laravel Framework
+
+### Database
+
+* MySQL
+
+### Development Methodology
+
+* Iterative Waterfall Model
+* MVC Architecture
+
+---
+
+## System Architecture
+
+The application follows Laravel's MVC (Model-View-Controller) architecture.
+
+```text
+User Interface
+      │
+      ▼
+Controllers
+      │
+      ▼
+Business Logic
+      │
+      ▼
+Models
+      │
+      ▼
+MySQL Database
+```
+
+This architecture improves maintainability, scalability, and separation of concerns.
+
+---
+
+## Core Modules
+
+### Authentication Module
+
+Responsible for:
+
+* User Registration
+* Login Validation
+* Session Management
+* Access Control
+
+### Banking Module
+
+Provides:
+
+* Account Operations
+* Fund Transfers
+* Balance Inquiry
+* Transaction Tracking
+
+### KYC Module
+
+Handles:
+
+* Customer Verification
+* Document Submission
+* Validation Process
+
+### Deposit Module
+
+Supports:
+
+* Fixed Deposit Creation
+* Deposit Tracking
+
+### Administration Module
+
+Allows administrators to:
+
+* Manage Customers
+* Monitor Accounts
+* Maintain Banking Records
+
+---
+
+## Project Objectives
+
+* Digitize banking services
+* Reduce manual workload
+* Improve accessibility
+* Enhance customer experience
+* Maintain banking records efficiently
+* Provide secure online transactions
+* Support future scalability
+
+---
+
+## Testing
+
+The system was tested using:
+
+### Unit Testing
+
+* Login Validation
+* Registration Functionality
+* User Authentication
+
+### Integration Testing
+
+* Module Communication
+* Database Operations
+* Banking Workflows
+
+### Black Box Testing
+
+* Input Validation
+* Functional Verification
+* User Interaction Testing
+
+---
+
+## Future Enhancements
+
+The system can be extended with several advanced banking features:
+
+* Real Payment Gateway Integration
+* Inter-Bank Fund Transfers
+* Loan Management System
+* Credit Card Services
+* Email Verification
+* SMS Notifications
+* Session Timeout Security
+* Two-Factor Authentication (2FA)
+* Mobile Banking Application
+* Real-Time Transaction Processing
+
+---
+
+## Learning Outcomes
+
+Through this project, the following concepts were applied and strengthened:
+
+* Software Engineering Principles
+* Database Management Systems
+* Laravel Framework Development
+* MVC Architecture
+* Authentication & Authorization
+* Web Application Development
+* System Design and Testing
+
+---
+
+## Author
+
+### Atul Kumar Giri
+
+Bachelor of Computer Application (BCA)
+
+Tech Stack:
+
+* PHP
+* Laravel
+* MySQL
+* JavaScript
+* Bootstrap
+* HTML
+* CSS
+
+---
+
+## License
+
+This project was developed for educational and learning purposes.
