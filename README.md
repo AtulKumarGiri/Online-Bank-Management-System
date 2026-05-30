@@ -214,8 +214,11 @@ Through this project, the following concepts were applied and strengthened:
 ## Author
 
 ### Atul Kumar Giri
+### Ronit Singh
+### Gulafshan Parween
+### Gaurav Jha
+### Mohit Gupta
 
-Bachelor of Computer Application (BCA)
 
 Tech Stack:
 
