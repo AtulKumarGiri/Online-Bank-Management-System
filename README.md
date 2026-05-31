@@ -2,7 +2,7 @@
 
 ## Overview
 
-Suraksha Bank is a web-based Online Banking Management System developed to provide customers with secure and convenient access to banking services from anywhere. The platform eliminates the need for customers to visit physical bank branches for routine banking activities and enables digital management of accounts, transactions, and customer records.
+Online Banking Management System developed to provide customers with secure and convenient access to banking services from anywhere. The platform eliminates the need for customers to visit physical bank branches for routine banking activities and enables digital management of accounts, transactions, and customer records.
 
 The project was developed as a major academic project with the objective of simplifying banking operations, improving accessibility, and reducing manual workload through automation.
 
